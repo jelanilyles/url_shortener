@@ -1,6 +1,6 @@
 # url_shortener
 
-This project creates and hosts shortened URLs. Most of the logic was found on YouTube at https://www.youtube.com/watch?v=Z57566JBaZQ
+This project creates and hosts shortened URLs. Most of the logic was found on YouTube at https://www.youtube.com/watch?v=Z57566JBaZQ, with a few minor edits.
 
 ## Features
 
