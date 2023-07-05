@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://lylesjelani:lylesjelani@urlshortener.zuxezmj.mongodb.net/?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:3000"
+}
