@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "short": "node -e 'require(\"./script.js\").createNewShort()'"
   },
   "keywords": [],
   "author": "",
