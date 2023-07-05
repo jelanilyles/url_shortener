@@ -23,13 +23,15 @@ router.post('/shorten', async (req, res) => {
     if(validUrl.isUri(longUrl)) {
         try {
             let url = await Url.findOne({ longUrl });
-
-            let url2 = {
-                shortUrl: url.get('shortUrl'),
-                date: new Date()
-            };
+            let url2;
+            
 
             if(url) {
+                url2 = {
+                    shortUrl: url.get('shortUrl'),
+                    date: new Date()
+                };
+
                 res.json(url2);
             } else {
                 const shortUrl = baseUrl + '/' + urlCode;
@@ -40,6 +42,11 @@ router.post('/shorten', async (req, res) => {
                     urlCode,
                     date: new Date()
                 });
+
+                url2 = {
+                    shortUrl: shortUrl,
+                    date: new Date()
+                };
 
                 await url.save();
 

@@ -2,5 +2,5 @@ POST http://localhost:3000/api/url/shorten
 Content-Type: application/json
 
 {
-    "longUrl": "https://www.amazon.com/Certified-Refurbished-Amazon-portable-entertainment/dp/B099GYVGW4/ref=zg_bsnr_c_pc_sccl_1/134-8420677-9853413?pd_rd_w=ukiuG&content-id=amzn1.sym.309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_p=309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_r=HHTD662S5WS7P8AG0YE9&pd_rd_wg=MT9WK&pd_rd_r=1652806d-d617-4013-b3a0-7cc90178948d&pd_rd_i=B099GYVGW4&psc=1"
+    "longUrl": "https://www.amazon.com/crocs-Unisex-Classic-Black-Women/dp/B0014C5S7S/ref=zg_bs_c_fashion_sccl_1/134-8420677-9853413?pd_rd_w=eGSWT&content-id=amzn1.sym.309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_p=309d45c5-3eba-4f62-9bb2-0acdcf0662e7&pf_rd_r=8B0HK0NN8PYE4PZWX0BX&pd_rd_wg=5KODb&pd_rd_r=12ff0cca-e175-46db-b168-9844050477ba&pd_rd_i=B0014C5S7S&psc=1"
 }
